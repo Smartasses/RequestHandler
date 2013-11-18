@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestHandler", "RequestHa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestHandler.UnitTests", "RequestHandler.UnitTests\RequestHandler.UnitTests.csproj", "{77DE24B8-07D5-4A94-97FD-28E2DDBAAA0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E72E8CCE-BFE8-4B76-855B-0F28A5E0FF0C}"
+	ProjectSection(SolutionItems) = preProject
+		RequestHandler.nuspec = RequestHandler.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

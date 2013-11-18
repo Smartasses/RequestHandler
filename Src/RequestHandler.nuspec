@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.00</version>
+    <authors>Glenn Dierckx</authors>
+    <owners>Glenn Dierckx</owners>
+    <id>RequestHandler</id>
+    <title>RequestHandler</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lean requesthandling</description>
+    <copyright>Copyright Glenn Dierckx 2013</copyright>
+  </metadata>
+  <files>
+    <file src="RequestHandler\bin\Release\RequestHandler.dll" target="lib\RequestHandler.dll" />
+  </files>
+</package>
