@@ -73,10 +73,6 @@
       <Project>{558a168f-8c0c-4eb7-95ff-eeb83faa6821}</Project>
       <Name>RequestHandler.Example.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RequestHandler\RequestHandler.csproj">
-      <Project>{2cf21180-f897-4135-919f-30fc7b623808}</Project>
-      <Name>RequestHandler</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

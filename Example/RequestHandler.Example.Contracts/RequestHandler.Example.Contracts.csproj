@@ -39,12 +39,6 @@
     <Compile Include="Contracts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RequestHandler\RequestHandler.csproj">
-      <Project>{2CF21180-F897-4135-919F-30FC7B623808}</Project>
-      <Name>RequestHandler</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestHandler", "RequestHandler\RequestHandler.csproj", "{2CF21180-F897-4135-919F-30FC7B623808}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestHandler.UnitTests", "RequestHandler.UnitTests\RequestHandler.UnitTests.csproj", "{77DE24B8-07D5-4A94-97FD-28E2DDBAAA0F}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestHandler.Example.Host", "RequestHandler.Example.Host\RequestHandler.Example.Host.csproj", "{1CEA0FBB-5259-4864-A487-EB6E26B13E8C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestHandler.Example.Contracts", "RequestHandler.Example.Contracts\RequestHandler.Example.Contracts.csproj", "{558A168F-8C0C-4EB7-95FF-EEB83FAA6821}"
@@ -20,14 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2CF21180-F897-4135-919F-30FC7B623808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CF21180-F897-4135-919F-30FC7B623808}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CF21180-F897-4135-919F-30FC7B623808}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CF21180-F897-4135-919F-30FC7B623808}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77DE24B8-07D5-4A94-97FD-28E2DDBAAA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77DE24B8-07D5-4A94-97FD-28E2DDBAAA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77DE24B8-07D5-4A94-97FD-28E2DDBAAA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77DE24B8-07D5-4A94-97FD-28E2DDBAAA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1CEA0FBB-5259-4864-A487-EB6E26B13E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1CEA0FBB-5259-4864-A487-EB6E26B13E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CEA0FBB-5259-4864-A487-EB6E26B13E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
