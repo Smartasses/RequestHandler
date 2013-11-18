@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="089a58d5-d21a-43df-b9a8-66e1fb450d24" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60098/ExampleOne.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ExampleOne.xsd" MetadataType="Schema" ID="aef3fbcb-d299-4a4e-879e-aaf357a2e12e" SourceId="1" SourceUrl="http://localhost:60098/ExampleOne.svc?xsd=xsd2" />
+    <MetadataFile FileName="ExampleOne.disco" MetadataType="Disco" ID="cce8debf-de4f-43b7-80cd-3a23879af82e" SourceId="1" SourceUrl="http://localhost:60098/ExampleOne.svc?disco" />
+    <MetadataFile FileName="ExampleOne1.xsd" MetadataType="Schema" ID="5a930746-af20-44ed-97af-746adf639b89" SourceId="1" SourceUrl="http://localhost:60098/ExampleOne.svc?xsd=xsd1" />
+    <MetadataFile FileName="ExampleOne.wsdl" MetadataType="Wsdl" ID="547b26dc-0b02-46f6-ae0e-5dafbb4eab3d" SourceId="1" SourceUrl="http://localhost:60098/ExampleOne.svc?wsdl" />
+    <MetadataFile FileName="ExampleOne2.xsd" MetadataType="Schema" ID="4793a7e0-5106-4b8f-83e4-d71aab686cfe" SourceId="1" SourceUrl="http://localhost:60098/ExampleOne.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

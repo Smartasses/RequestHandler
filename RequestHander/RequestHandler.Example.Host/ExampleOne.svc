@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="RequestHandler.Example.Contracts.ITimeService, RequestHandler.Example.Contracts" 
+    Factory="RequestHandler.Wcf.ServiceHostFactory" %>
