@@ -1,16 +1,18 @@
-﻿<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <version>0.00</version>
-    <authors>Glenn Dierckx</authors>
-    <owners>Glenn Dierckx</owners>
-    <id>RequestHandler</id>
-    <title>RequestHandler</title>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Lean requesthandling</description>
-    <copyright>Copyright Glenn Dierckx 2013</copyright>
-  </metadata>
-  <files>
-    <file src="RequestHandler\bin\Release\RequestHandler.dll" target="lib\RequestHandler.dll" />
-  </files>
+    <metadata>
+        <id>RequestHandler</id>
+        <version>0.00</version>
+        <title>RequestHandler</title>
+        <authors>glenndierckx.be</authors>
+        <owners>glenndierckx.be</owners>
+        <projectUrl>https://github.com/glenndierckx/RequestHandler</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Lean requesthandling</description>
+        <copyright>Copyright glenndierckx.be 2013</copyright>
+        <tags>wcf requesthandler request response result</tags>
+    </metadata>
+    <files>
+        <file src="RequestHandler\bin\Release\RequestHandler.dll" target="lib\RequestHandler.dll" />
+    </files>
 </package>
