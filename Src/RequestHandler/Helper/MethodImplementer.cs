@@ -30,7 +30,7 @@ namespace RequestHandler.Helper
         {
             var handler = typeof(Processor<,>).MakeGenericType(requestType, responseType);
             var il = methodBuilder.GetILGenerator();
-            il.Emit(OpCodes.Ldarg_0);
+            il.Emit(OpCodes.Ldarg_1);
             il.Emit(OpCodes.Call, handler.GetMethod("Process"));
             il.Emit(OpCodes.Ret);
         }
