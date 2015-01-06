@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using RequestHandler.Configuration;
 
@@ -11,9 +12,7 @@ namespace RequestHandler.Defaults
 
         public RequestHandlerResolver()
         {
-            _requestHandlers = new Lazy<IDictionary<Type, Type>>(() => AppDomain.CurrentDomain
-                .GetAssemblies()
-                .SelectMany(s => s.GetTypes())
+            _requestHandlers = new Lazy<IDictionary<Type, Type>>(() => GetTypesToLoad()
                 .Where(x => typeof (IRequestHandler).IsAssignableFrom(x) && !x.IsAbstract && x.IsClass)
                 .SelectMany(
                     type =>
@@ -25,6 +24,27 @@ namespace RequestHandler.Defaults
         public Type GetRequestHandler<TRequest, TResponse>()
         {
             return _requestHandlers.Value[typeof(IRequestHandler<TRequest, TResponse>)];
+        }
+
+        public IEnumerable<Type> GetTypesToLoad()
+        {
+            foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
+            {
+                var typesFromAssembly = Enumerable.Empty<Type>();
+                try
+                {
+                    typesFromAssembly = assembly.GetTypes();
+                }
+                catch(Exception ex)
+                {
+                    Debug.WriteLine("Exception occured while requesting types: {0}", ex);
+                }
+
+                foreach (var type in typesFromAssembly)
+                {
+                    yield return type;
+                }
+            }
         }
     }
 }

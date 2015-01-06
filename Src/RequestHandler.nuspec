@@ -4,13 +4,13 @@
         <id>RequestHandler</id>
         <version>0.00</version>
         <title>RequestHandler</title>
-        <authors>glenndierckx.be</authors>
-        <owners>glenndierckx.be</owners>
-        <projectUrl>https://github.com/glenndierckx/RequestHandler</projectUrl>
+        <authors>GlennDierckx</authors>
+        <owners>Glenn Dierckx</owners>
+        <projectUrl>https://github.com/smartasses/RequestHandler</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Lean requesthandling</description>
-        <copyright>Copyright glenndierckx.be 2013</copyright>
-        <tags>wcf requesthandler request response result</tags>
+        <copyright>Copyright smartasses 2014</copyright>
+        <tags>wcf requesthandler requesthandlers request response result</tags>
     </metadata>
     <files>
         <file src="RequestHandler\bin\Release\RequestHandler.dll" target="lib\RequestHandler.dll" />
